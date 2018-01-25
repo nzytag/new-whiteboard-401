@@ -7,7 +7,7 @@ require('jest');
 let list = {value: 1, next: {value: 2, next: {value: 3, next: null }}};
 //we create an array in order to test if is a linked list or not
 let cars = 'I am enjoying this';
-//test 1 and 2 are checking and iterating to find end and stop or checking if it kees running 
+//test 1 and 2 are checking and iterating to find end and stop or checking if it kees running
 describe('#Circular List', function () {
   it('It should return false if not circular', function () {
     expect(test.circleCheck(list)).toBe(false);
